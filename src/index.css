@@ -11,6 +11,7 @@ body {
 }
 
 #session-url-input {
+    display: block;
     width: 100%;
     padding: 8px 10px;
     font-size: 2rem;
@@ -18,4 +19,8 @@ body {
     outline: 0;
     box-shadow: 0px 0px 3px 0px #4395ff;
     border-radius: 5px;
+}
+
+#enter-url-h2 {
+    text-align: center;
 }
