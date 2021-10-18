@@ -6,7 +6,7 @@ if (require('electron-squirrel-startup')) { // eslint-disable-line global-requir
     app.quit();
 }
 
-const createWindow = () => {
+const createWindow = async() => {
     // Create the browser window.
     const mainWindow = new BrowserWindow({
         width: 1200,
