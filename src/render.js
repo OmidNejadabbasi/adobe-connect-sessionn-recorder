@@ -19,8 +19,9 @@ async function startRecording() {
     // const plugin = path.join(__dirname, 'ruffle/ruffle-nightly-2021_10_18-web-extension')
     // await sessionWindow.webContents.session.loadExtension(plugin, { allowFileAccess: true });
 
+    // https://vc1.tabrizu.ac.ir/pskmuec4jx1j/?session=breezbreezewifanpq3vmccnye
     sessionWindow.loadURL(
-        "https://vc1.tabrizu.ac.ir/pcke6b05jhl6/?session=breezbreezdnvywsqh375wkaq2"
+        "https://vc1.tabrizu.ac.ir/pskmuec4jx1j/?session=breezbreezewifanpq3vmccnye"
     );
     // sessionWindow.webContents.executeJavaScript("var s = document.createElement( 'script' );s.setAttribute( 'src'," + plugin + "  );document.body.appendChild(s);")
     sessionWindow.setTitle("Recording session ...");

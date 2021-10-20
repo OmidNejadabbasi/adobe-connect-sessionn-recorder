@@ -1,8 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
     console.log("proloader works!");
+    // clicking the open in browser button
+    getElementByXpath('//*[@id="launchMeetingOptionsPage"]/div[8]/a').click();
+
+    // click the play button
     setTimeout(() => {
-        getElementByXpath('//*[@id="coral-id-0"]').checked = true;
-    }, 3000);
+        getElementByXpath('//*[@id="play-recording-shim-button"]').click();
+    }, 1000);
 });
 
 function getElementByXpath(path) {
